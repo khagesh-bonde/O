@@ -639,44 +639,20 @@ embed it on your website, share it online, or anything else you would like to do
 ------------------------
 10. Demonstrate E-mail functions
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
  <title>Email Form</title>
-
 </head>
-
 <body>
-
  <h2>Email Form</h2>
-
  <form action="send_email.php" method="post">
-
  <label for="email">Email:</label><br>
-
  <input type="email" id="email" name="email" required><br><br>
-
  <label for="subject">Subject:</label><br>
-
  <input type="text" id="subject" name="subject" required><br><br>
-
  <label for="message">Message:</label><br>
-
  <textarea id="message" name="message" required></textarea><br><br>
- 
-  <input type="submit" value="Send Email">
-
+ <input type="submit" value="Send Email">
  </form>
-
 </body>
-
 </html>
-
-
-
-
-
-
-  
